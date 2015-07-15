@@ -35,7 +35,7 @@ namespace Tyshkavets.FileSplitter
                         Console.WriteLine("Partition {0} processed", processedFilesCount);
                         processedFilesCount++;
                         rowCount = 0;
-                        stringToWrite.Clear();
+                        stringToWrite.Length = 0;
                     }
                 }
 
